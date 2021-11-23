@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "snowflake-gse-pat"
+    organization = "gse-pat"
     workspaces {
       name = "hashicat-aws"
     }
